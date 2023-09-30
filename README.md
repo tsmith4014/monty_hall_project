@@ -26,7 +26,7 @@ The application serves as a real-world testing ground for the Monty Hall problem
 - Backend: Django, Django REST Framework
 - Database: SQLite
 - Deployment: AWS
-- DevOps: Docker, CI/CD Pipelines
+- DevOps: AWS and Docker
 - Other Libraries: SoundManager for audio management
 
 ## Frontend Architecture
