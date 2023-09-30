@@ -1,0 +1,38 @@
+.curtain-container {
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  display: inline-block;
+  margin: 15px;
+  position: relative; 
+  overflow: hidden;  
+  cursor: pointer;
+}
+
+.curtain-content {
+  transition: transform 2s ease-out;
+  transform: translateY(0);
+  text-align: center;
+  line-height: 300px;
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;      
+}
+
+.curtain-container.revealed .curtain-content {
+  transform: translateY(-100%); 
+}
+
+.reveal-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}

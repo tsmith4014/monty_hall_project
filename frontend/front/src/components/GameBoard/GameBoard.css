@@ -1,0 +1,11 @@
+/* GameBoard.css */
+.gameboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Responsive CSS */
+}
+
+
